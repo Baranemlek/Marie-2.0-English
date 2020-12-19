@@ -24,19 +24,21 @@ Bu bot grub yönetim botudurYetki vermeniz gerekir aksi halde botu sürekli baş
 
 Bi sorun bulursanız yada öneriniz var ise sahibime iletin [sahibim](tg://user?id={}).
 
+Herşey için @mrflyman a teşşekkürler
+
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+Merhaba! Benim adım *{}*.
 
-*Main* available commands:
- - /start: Start the bot...
- - /help: help....
- - /donate: To find out more about donating!
+*Menü* için bazı komutlar:
+ - /start: botu başlat...
+ - /help: komutlar....
+
  - /settings:
-   - in PM: To find out what SETTINGS you have set....
-   - in a group:
+   - özel mesajda: tüm ayarlar
+   - gurb içerisinde: grub ayarları
 
 {}
 And the following:
