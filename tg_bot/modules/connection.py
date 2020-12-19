@@ -145,14 +145,16 @@ def connected(bot, update, chat, user_id, need_admin=True):
 
 
 __help__ = """
-Actions are available with connected groups:
- • View and edit notes
- • View and edit filters
- • More in future!
+yardım burada bağlanma module:
 
- - /connect <chatid>: Connect to remote chat
- - /disconnect: Disconnect from chat
- - /allowconnect on/yes/off/no: Allow connect users to group
+İşlemler bağlı gruplarla kullanılabilir:
+ • Notları görüntüleme ve düzenleme
+ • Filtreleri görüntüleme ve düzenleme
+ • Gelecekte daha fazlası!
+
+ - /connect <sohbet kimliği>: Uzaktan sohbete bağlan
+ - /disconnect: sohbet bağlantısını keser.
+ - /allowconnect on/yes/off/no: Bağlanan kullanıcıların gruplamasına izin ver
 """
 
 __mod_name__ = "Connections"
