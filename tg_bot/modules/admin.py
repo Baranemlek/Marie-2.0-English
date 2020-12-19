@@ -217,14 +217,14 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- - /adminlist: list of admins in the chat
+ - /adminlist: yetkili kişilerin listesi
 
-*Admin only:*
- - /pin: silently pins the message replied to - add 'loud' or 'notify' to give notifs to users.
- - /unpin: unpins the currently pinned message
- - /invitelink: gets invitelink
- - /promote: promotes the user replied to
- - /demote: demotes the user replied to
+*sadece yöneteci:*
+ - /pin: mesajı sabitler
+ - /unpin: sabitlenen mesajı kaldırır
+ - /invitelink: davet linkini verir
+ - /promote: yetki verir yanıtlayarak
+ - /demote: yetki düşürür
 """
 
 __mod_name__ = "Admin"
