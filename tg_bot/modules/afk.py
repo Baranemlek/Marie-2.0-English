@@ -69,7 +69,6 @@ def reply_afk(bot: Bot, update: Update):
 
 __help__ = """
  - /afk <Sebebi>: afk olarak işaretler. 
-
  - brb <sebebi>: yukarıdakinin aynı.
 
 When marked as AFK, any mentions will be replied to with a message to say you're not available!
