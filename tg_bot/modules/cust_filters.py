@@ -269,14 +269,13 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- - /filters: list all active filters in this chat.
+yardım burada filtre module:
 
-*Admin only:*
- - /filter <keyword> <reply message>: add a filter to this chat. The bot will now reply that message whenever 'keyword'\
-is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
-keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
-doin?
- - /stop <filter keyword>: stop that filter.
+ - /filters: bu sohbetteki tüm etkin filtreleri listele.
+
+*sadece yönetici:*
+ - /filter <kelime> <cevabı>: buna bir filtre ekleyin sohbet. Bot artık 'anahtar kelime' denildiğinde bu mesajı yanıtlayacaktır. Bir çıkartmaya anahtar kelimeyle cevap verirseniz, bot bu çıkartma ile cevap verecektir. NOT: tüm filtre anahtar kelimeleri küçük harflidir. Anahtar kelimenizin bir cümle olmasını istiyorsanız, tırnak işaretleri kullanın. örneğin: / filter "selam nasılsın" iyiyim sen nasılsın?
+ - /stop <kelime>: filtre durur.
 """
 
 __mod_name__ = "Filters"
