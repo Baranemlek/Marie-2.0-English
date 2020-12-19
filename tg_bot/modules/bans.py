@@ -440,16 +440,16 @@ def runban(bot: Bot, update: Update, args: List[str]):
 
 
 __help__ = """
- - /kickme: kicks the user who issued the command
+ - /kickme: grubtan çıkmak için
 
-*Admin only:*
- - /ban <userhandle>: bans a user. (via handle, or reply)
- - /tban <userhandle> x(m/h/d): bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
- - /unban <userhandle>: unbans a user. (via handle, or reply)
- - /kick <userhandle>: kicks a user, (via handle, or reply)
+*Sadece yönetici:*
+ - /ban <sebebi>: banlar mesajı yanıtlayarak
+ - /tban <sebebi> ): (dakika/saat/gün): süreli ban
+ - /unban <kullanıcıadı>: banı kaldır 
+ - /kick <kullanıcı adı>: grubtan atar
 """
 
-__mod_name__ = "Bans"
+__mod_name__ = "Ban"
 
 BAN_HANDLER = CommandHandler("ban", ban, pass_args=True, filters=Filters.group)
 TEMPBAN_HANDLER = CommandHandler(["tban", "tempban"], temp_ban, pass_args=True, filters=Filters.group)
