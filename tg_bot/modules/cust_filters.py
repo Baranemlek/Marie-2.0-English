@@ -274,7 +274,18 @@ yardım burada filtre module:
  - /filters: bu sohbetteki tüm etkin filtreleri listele.
 
 *sadece yönetici:*
- - /filter <kelime> <cevabı>: buna bir filtre ekleyin sohbet. Bot artık 'anahtar kelime' denildiğinde bu mesajı yanıtlayacaktır. Bir çıkartmaya anahtar kelimeyle cevap verirseniz, bot bu çıkartma ile cevap verecektir. NOT: tüm filtre anahtar kelimeleri küçük harflidir. Anahtar kelimenizin bir cümle olmasını istiyorsanız, tırnak işaretleri kullanın. örneğin: / filter "selam nasılsın" iyiyim sen nasılsın?
+ - /filter <kelime> <cevabı>: buna bir filtre ekleyin sohbet.
+Bot artık 'anahtar kelime'
+denildiğinde bu mesajı
+yanıtlayacaktır. Bir çıkartmaya
+anahtar kelimeyle cevap
+verirseniz, bot bu çıkartma
+ile cevap verecektir. NOT:
+ tüm filtre anahtar kelimeleri
+küçük harflidir. Anahtar
+kelimenizin bir cümle olmasını
+istiyorsanız, tırnak işaretleri
+kullanın. örneğin: / filter "selam nasılsın" iyiyim sen nasılsın?
  - /stop <kelime>: filtre durur.
 """
 
