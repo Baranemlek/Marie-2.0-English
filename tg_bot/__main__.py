@@ -39,10 +39,6 @@ Merhaba! Benim adım *{}*.
    - özel mesajda: tüm ayarlar
    - gurb içerisinde: grub ayarları
 
-
-
-
-
 DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
