@@ -120,13 +120,13 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- - /flood: To know your current message control..
+ - /flood: Mevcut mesaj kontrolünüzü görmek için..
 
 *Admin only:*
- - /setflood <int/'no'/'off'>: enables or disables flood control
+ - /setflood <sayı/'hayır'/'kapat'>: ile ayarla hayır ve kapat kapatır
 """
 
-__mod_name__ = "AntiFlood"
+__mod_name__ = "flood"
 
 FLOOD_BAN_HANDLER = MessageHandler(Filters.all & ~Filters.status_update & Filters.group, check_flood)
 SET_FLOOD_HANDLER = CommandHandler("setflood", set_flood, pass_args=True, filters=Filters.group)
