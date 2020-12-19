@@ -68,13 +68,14 @@ def reply_afk(bot: Bot, update: Update):
 
 
 __help__ = """
- - /afk <reason>: mark yourself as AFK.
- - brb <reason>: same as the afk command - but not a command.
+ - /afk <Sebebi>: afk olarak işaretler. 
+
+ - brb <sebebi>: yukarıdakinin aynı.
 
 When marked as AFK, any mentions will be replied to with a message to say you're not available!
 """
 
-__mod_name__ = "AFK"
+__mod_name__ = "afk"
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk)
 AFK_REGEX_HANDLER = DisableAbleRegexHandler("(?i)brb", afk, friendly="afk")
