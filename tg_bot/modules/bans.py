@@ -444,7 +444,7 @@ __help__ = """
 
 *Sadece yönetici:*
  - /ban <sebebi>: banlar mesajı yanıtlayarak
- - /tban <sebebi> ): (dakika/saat/gün): süreli ban
+ - /tban <sebebi> x(m/h/d): bir kullanıcıyı x süre yasaklar. (tanıtıcı veya yanıt yoluyla). m = dakika, h = saat, d = gün.
  - /unban <kullanıcıadı>: banı kaldır 
  - /kick <kullanıcı adı>: grubtan atar
 """
