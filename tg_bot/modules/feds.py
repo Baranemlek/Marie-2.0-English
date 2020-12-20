@@ -26,15 +26,7 @@ from telegram import (
 
 )
 
-from telegram.error import BadRequest, TelegramError, Unauthorized
-
-from telegram.ext import CallbackQueryHandler, CommandHandler, run_async
-
-from telegram.utils.helpers import mention_html, mention_markdown
-
-import Elizabeth.modules.sql.feds_sql as sql
-
-from Elizabeth import (
+(
 
     DEV_USERS,
 
@@ -52,9 +44,7 @@ from Elizabeth import (
 
 )
 
-from Elizabeth.modules.disable import DisableAbleCommandHandler
-
-from Elizabeth.modules.helper_funcs.alternate import (
+(
 
     send_action,
 
@@ -64,9 +54,7 @@ from Elizabeth.modules.helper_funcs.alternate import (
 
 )
 
-from Elizabeth.modules.helper_funcs.chat_status import is_user_admin
-
-from Elizabeth.modules.helper_funcs.extraction import (
+(
 
     extract_unt_fedban,
 
