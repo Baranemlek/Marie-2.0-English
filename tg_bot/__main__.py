@@ -18,18 +18,19 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Selam {}, benim adım {}!Komutlar için /help
-
-Bu bot grub yönetim botudurYetki vermeniz gerekir aksi halde botu sürekli başlatmanız gerekir yetkisi yokken mesajlara iletişimi yoktur
+Selam {}, benim adım {}!
+Komutlar için /help
+Bu bot grub yönetim botudur
+Yetki vermeniz gerekir aksi halde
+botu sürekli başlatmanız gerekir
+yetkisi yokken mesajlara iletişimi yoktur
 
 Bi sorun bulursanız yada öneriniz var ise sahibime iletin [sahibim](tg://user?id={}).
-
 Herşey için @mrflyman a teşşekkürler
 
 """
 
 HELP_STRINGS = """
-
 Merhaba Benim adım *{}*.
 
 *Menü* için bazı komutlar:
@@ -38,6 +39,7 @@ Merhaba Benim adım *{}*.
  - /settings:
    - özel mesajda: tüm ayarlar
    - gurp içerisinde: grup ayarları
+
 """
 
 IMPORTED = {}
