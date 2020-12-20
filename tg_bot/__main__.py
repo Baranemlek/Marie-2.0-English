@@ -39,6 +39,10 @@ Merhaba! Benim adım *{}*.
    - özel mesajda: tüm ayarlar
    - gurb içerisinde: grub ayarları
 
+{}
+
+"""
+
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
