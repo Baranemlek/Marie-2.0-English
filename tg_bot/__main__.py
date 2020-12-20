@@ -30,17 +30,14 @@ Herşey için @mrflyman a teşşekkürler
 
 HELP_STRINGS = """
 
-Merhaba! Benim adım *{}*.
+Merhaba Benim adım *{}*.
 
 *Menü* için bazı komutlar:
  - /start: botu başlat...
  - /help: komutlar....
  - /settings:
    - özel mesajda: tüm ayarlar
-   - gurb içerisinde: grub ayarları
-
-{}
-
+   - gurp içerisinde: grup ayarları
 """
 
 IMPORTED = {}
